@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+@layer utilities {
+  .btn_navy { 
+    @apply  border-slate-900 bg-slate-900 text-white
+  }
+  .btn_navy_outline  { 
+    @apply  border-slate-900 bg-slate-900 text-white
+  }
+  .btn_amber  { 
+    @apply border-[1px] border-amber-400 bg-amber-400 text-slate-800
+  }
+  .btn_amber_outline { 
+    @apply border-[1px] border-amber-400 bg-transparent text-amber-400 fill-amber-400
+  }
+}
+
+.burger {
+  width: 100%;
+}
+
+.burger::after, .burger::before {
+  content: "";
+  display: block;
+  height: 2.5px;
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.burger::after {
+  top: -5px;
+}
+
+.burger::before {
+  top: 5px;
+}
+
+.burgerActive::after {
+  transform: rotate(45deg);
+  top: -2.5px;
+}
+
+.burgerActive::before {
+  transform: rotate(-45deg);
+  top: 0px;
+}
