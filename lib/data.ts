@@ -64,7 +64,7 @@ export const projects = [
   {
     id: 'project1',
     title: 'E-commerce Catalog',
-    description: 'An e-commerce catalog website that displays men\'s and women\'s clothing catalogs. This website is the assignment of the Core Initiative Frontend Project Based Internship Program by Rakamin.',
+    description: 'An e-commerce catalog website that displays men\'s and women\'s clothing catalogs. This website is the assignment of the Project Based Internship Program by Rakamin.',
     links: {
       github: 'https://github.com/faridkharis/ecommerce-catalog',
       website: 'https://ecommerce-faridkharis.netlify.app/',
@@ -79,7 +79,7 @@ export const projects = [
   {
     id: 'project2',
     title: 'Promptopia',
-    description: 'Promptopia is a web application that is useful as a medium for writing short texts called prompts. Not only our prompts, but we can also see prompts from other users.Promptopia was built using Next.js, MongoDB, React.js, and Google Cloud frameworks for user authentication.',
+    description: 'Promptopia is a web application for writing short texts called prompts. Not only our prompts, but we can also see prompts from other users.',
     links: {
       github: 'https://github.com/faridkharis/promptopia',
       website: 'https://promptopia-theta-eight.vercel.app/',
