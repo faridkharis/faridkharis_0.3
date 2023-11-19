@@ -22,7 +22,7 @@
     "react"
   ],
   "rules": {
-    "linebreak-style": ["error", "windows"],
+    "linebreak-style": ["error", "unix"],
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
