@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${notoSans.className} bg-slate-100 text-slate-900 relative scroll-smooth h-[5000px]`}>
+      <body className={`${notoSans.className} bg-slate-50 text-slate-900 relative scroll-smooth h-[5000px]`}>
         <Header />
         {children}
         <Footer />

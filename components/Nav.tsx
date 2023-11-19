@@ -11,7 +11,7 @@ export default function Nav() {
       initial={{ y: -100, x: '-50%', opacity: 0 }}
       animate={{ y: 0, x: '-50%', opacity: 1 }}
     >
-      <Link href="/">
+      <Link href="/#home">
         <Image src="/logo-faridkharis.svg" alt="logo" width={130} height={24} />
       </Link>
       <div className="flex items-center justify-center">
