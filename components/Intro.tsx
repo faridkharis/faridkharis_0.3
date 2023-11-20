@@ -20,7 +20,7 @@ export default function Intro() {
           <p className="text-slate-400 font-medium max-w-[37.5rem] text-base text-center mb-10">
             I am a software engineer specializing in web development. Currently, I often use
             Javascript (React.js, Next.js, Vue.js, Node.js). I just graduated from Informatics at
-            UPN &quote;Veteran&quote; Yogyakarta with a great passion for working as
+            UPN &quot;Veteran&quot; Yogyakarta with a great passion for working as
             software engineer.
           </p>
           <div className="flex flex-col md:flex-row gap-3 w-full md:w-max">
