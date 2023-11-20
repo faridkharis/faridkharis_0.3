@@ -28,7 +28,7 @@ export default function Intro() {
             <Link href="mailto:faridkharismawan@gmail.com" target="_blank">
               <Button type="button" title="Contact Me" variant="btn_amber" />
             </Link>
-            <Link href="https://drive.google.com/file/d/1Dnz81faUrG86Jgrr4eZ4l57_8l1MjTra/view?usp=sharing" target="_blank">
+            <Link href="/CV.pdf" target="_blank">
               <Button type="button" title="Download My CV" variant="btn_amber_outline" />
             </Link>
             <div className="flex items-center justify-between gap-3">
