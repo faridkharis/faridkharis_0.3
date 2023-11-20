@@ -26,7 +26,9 @@ export default function Contact() {
       <div className="flex justify-center h-[20rem] mt-[3rem] mx-auto xl:w-[90%]">
         <div className="flex flex-col justify-center items-center gap-10 bg-amber-50 rounded-3xl w-full max-w-5xl p-10 md:p-20">
           <p className="max-w-lg text-center text-slate-600 font-medium">
-            I am looking   interests. Do you have an interesting project or just want to say hello?
+            I am looking for opportunities to contribute further to the field of
+            software engineering and apply my knowledge and interests.
+            Do you have an interesting project or just want to say hello?
             Feel free to message me!
           </p>
           <Button type="button" title="Contact Me" variant="btn_navy" />

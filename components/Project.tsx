@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { projects } from '@/lib/data';
 
 export default function Project() {
@@ -25,7 +26,7 @@ export default function Project() {
         Projects I&apos;ve Crafted
       </motion.h2>
       <div className="flex justify-center items-center">
-        <div className="flex flex-col gap-10 w-full max-w-5xl xl:w-[90%] p-10 md:p-20">
+        <div className="flex flex-col gap-10 w-full max-w-5xl xl:w-[90%] mt-[3rem]">
           {
             projects.map((project) => {
               return (
@@ -40,7 +41,17 @@ export default function Project() {
                     />
                   </div>
                   <div className="z-20 flex flex-col gap-2 p-5 bg-white rounded-2xl shadow-slate-400 shadow-md lg:max-w-sm">
-                    <p className="text-slate-800 text-2xl font-bold">{project.title}</p>
+                    <div className="flex justify-between items-center">
+                      <p className="text-slate-800 text-2xl font-bold">{project.title}</p>
+                      <div className="flex gap-3">
+                        <Link href={project.links.github} target="_blank">
+                          <Image src="/icon-github-slate.svg" alt="link" width={20} height={20} />
+                        </Link>
+                        <Link href={project.links.website} target="_blank">
+                          <Image src="/icon-link-slate.svg" alt="link" width={20} height={20} />
+                        </Link>
+                      </div>
+                    </div>
                     <p className="text-slate-600 text-base font-normal">{project.description}</p>
                     <div className="flex gap-3">
                       {
