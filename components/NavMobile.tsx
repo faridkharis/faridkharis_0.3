@@ -1,10 +1,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 import { links } from '@/lib/data';
 import Button from './Button';
 
 export default function NavMobile() {
+  const [isActive, setIsActive] = useState(true);
+
   return (
     <motion.nav
       className="block fixed bg-slate-100 z-30 h-screen w-[30rem] max-w-full right-0 px-5 pt-4 md:hidden"
@@ -22,7 +25,7 @@ export default function NavMobile() {
             links.map((link) => {
               return (
                 <li key={link.hash}>
-                  <Link href={link.hash} className="">
+                  <Link href={link.hash} onClick={() => { setIsActive(!isActive); }}>
                     {link.name}
                   </Link>
                 </li>

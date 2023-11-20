@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import Button from './Button';
 
 export default function Contact() {
@@ -31,7 +32,9 @@ export default function Contact() {
             Do you have an interesting project or just want to say hello?
             Feel free to message me!
           </p>
-          <Button type="button" title="Contact Me" variant="btn_navy" />
+          <Link href="mailto:faridkharismawan@gmail.com" target="_blank">
+            <Button type="button" title="Contact Me" variant="btn_navy" />
+          </Link>
         </div>
       </div>
     </section>

@@ -24,12 +24,11 @@ export const experiences = [
   {
     id: 'exp1',
     institution: 'UPN “Veteran” Yogyakarta',
-    date: 'Sep 2016 - Jul 2023',
+    date: 'Jul 2023',
     title: 'Bachelor of Informatics',
     tasks: [
-      'Communicate with parties from the International Relations Department regarding website requirements.',
-      'Building website interfaces using CodeIgniter and styling them using CSS.',
-      'Communicate with the University regarding website deployment.',
+      'Bachelor\'s degree in Informatics and graduated with a GPA of 3.62',
+      'Active in the Informatics Muslim student community as a leader, where I assumed leadership responsibilities at the departmental level.',
     ],
     icon: React.createElement(RiGraduationCapFill),
   },

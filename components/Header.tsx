@@ -25,7 +25,10 @@ export default function Header() {
       >
         <div className={`burger ${isActive ? 'burgerActive' : ''}`} />
       </motion.div>
-      {isActive && <NavMobile />}
+      {
+        isActive
+        && <NavMobile />
+      }
     </header>
   );
 }

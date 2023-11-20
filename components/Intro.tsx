@@ -32,10 +32,10 @@ export default function Intro() {
               <Button type="button" title="Download My CV" variant="btn_amber_outline" />
             </Link>
             <div className="flex items-center justify-between gap-3">
-              <Link href="https://github.com/faridkharis/" target="_blank">
+              <Link href="https://github.com/faridkharis/" target="_blank" className="w-full">
                 <Button type="button" icon="/icon-github.svg" variant="btn_amber_outline" />
               </Link>
-              <Link href="https://www.linkedin.com/in/faridkharis/" target="_blank">
+              <Link href="https://www.linkedin.com/in/faridkharis/" target="_blank" className="w-full">
                 <Button type="button" icon="/icon-linkedin.svg" variant="btn_amber_outline" />
               </Link>
             </div>
