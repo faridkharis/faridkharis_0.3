@@ -30,7 +30,9 @@ export default function NavMobile() {
             })
           }
         </ul>
-        <Button type="button" title="Contact Me" variant="btn_amber" />
+        <Link href="/#contact">
+          <Button type="button" title="Contact Me" variant="btn_amber" />
+        </Link>
       </div>
     </motion.nav>
   );

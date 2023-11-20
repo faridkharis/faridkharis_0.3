@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import Button from './Button';
 
 export default function Intro() {
@@ -24,11 +25,19 @@ export default function Intro() {
             software engineer.
           </p>
           <div className="flex flex-col md:flex-row gap-3 w-full md:w-max">
-            <Button type="button" title="Contact Me" variant="btn_amber" />
-            <Button type="button" title="Download My CV" variant="btn_amber_outline" />
+            <Link href="mailto:faridkharismawan@gmail.com" target="_blank">
+              <Button type="button" title="Contact Me" variant="btn_amber" />
+            </Link>
+            <Link href="https://drive.google.com/file/d/1Dnz81faUrG86Jgrr4eZ4l57_8l1MjTra/view?usp=sharing" target="_blank">
+              <Button type="button" title="Download My CV" variant="btn_amber_outline" />
+            </Link>
             <div className="flex items-center justify-between gap-3">
-              <Button type="button" icon="/icon-github.svg" variant="btn_amber_outline" />
-              <Button type="button" icon="/icon-linkedin.svg" variant="btn_amber_outline" />
+              <Link href="https://github.com/faridkharis/" target="_blank">
+                <Button type="button" icon="/icon-github.svg" variant="btn_amber_outline" />
+              </Link>
+              <Link href="https://www.linkedin.com/in/faridkharis/" target="_blank">
+                <Button type="button" icon="/icon-linkedin.svg" variant="btn_amber_outline" />
+              </Link>
             </div>
           </div>
         </motion.div>
