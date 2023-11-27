@@ -9,7 +9,7 @@ export default function Intro() {
     <section className="flex">
       <div className="h-screen w-screen bg-slate-900">
         <motion.div
-          className="h-full max-w-[80%] mx-auto flex flex-col items-center justify-center text-center gap-2"
+          className="h-full max-w-[80%] mx-auto flex flex-col items-center justify-center text-center gap-2 pt-10"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
         >

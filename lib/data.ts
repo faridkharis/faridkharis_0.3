@@ -18,6 +18,10 @@ export const links = [
     name: 'Project',
     hash: '#project',
   },
+  {
+    name: 'Contact',
+    hash: '#contact',
+  },
 ] as const;
 
 export const experiences = [
