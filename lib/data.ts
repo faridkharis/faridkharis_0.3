@@ -61,6 +61,21 @@ export const experiences = [
     ],
     icon: React.createElement(RiSuitcaseFill),
   },
+  {
+    id: 'exp4',
+    institution: 'Formulatrix Indonesia',
+    date: 'Dec 2023 - Feb 2024',
+    title: 'Software Engineer Bootcamp Trainee',
+    tasks: [
+      'Learning and Applying Object-Oriented Programming (OOP) : Created a class diagram for a battleship board game, applying OOP principles.',
+      'Development of Console Applications : Developed a UNO card game console app based on a class diagram provided by another participant, enhancing my coding skills and understanding of game development.',
+      'Final Project on Web Application Development : Worked on a web-based application titled "Meeting Room Booking", built with ASP.NET Web API and React. With my team, I work collaboratively using Open Project and GitLab.',
+      'Fixing Search Feature: Resolved issues in the search functionality within the Reservations Menu.',
+      'Improving UI Responsiveness: Corrected a responsive navigation background color bug, enhancing the app(\')s visual appeal and usability.',
+      'Integrating Google Sign-In: Added a button for Google Sign-In, streamlining the authentication process for users.'
+    ],
+    icon: React.createElement(RiSuitcaseFill),
+  },
 ] as const;
 
 export const projects = [
