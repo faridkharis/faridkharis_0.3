@@ -72,7 +72,7 @@ export const experiences = [
       'Final Project on Web Application Development : Worked on a web-based application titled "Meeting Room Booking", built with ASP.NET Web API and React. With my team, I work collaboratively using Open Project and GitLab.',
       'Fixing Search Feature: Resolved issues in the search functionality within the Reservations Menu.',
       'Improving UI Responsiveness: Corrected a responsive navigation background color bug, enhancing the app(\')s visual appeal and usability.',
-      'Integrating Google Sign-In: Added a button for Google Sign-In, streamlining the authentication process for users.'
+      'Integrating Google Sign-In: Added a button for Google Sign-In, streamlining the authentication process for users.',
     ],
     icon: React.createElement(RiSuitcaseFill),
   },
